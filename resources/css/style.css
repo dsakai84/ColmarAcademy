@@ -1,0 +1,120 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1rem;
+  background-color: white;
+
+}
+.container {
+  max-width: 1050px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+
+
+header {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  height: 2rem;
+}
+
+nav span {
+  font-size: 2rem;
+}
+
+#academy {
+  color: grey;
+}
+
+nav li {
+  display: inline;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+ nav ul {
+   padding-right: .5rem;
+ }
+
+header img {
+  height: 3rem;
+}
+
+/* main banner */
+
+.main-banner {
+  background-color: gray;
+  margin: auto;
+}
+
+.main-banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.studying {
+  width: 60%;
+  padding: 2rem 1.5rem
+}
+
+.studying img {
+  width: 100%;
+}
+
+.words {
+  width: 40%;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 8rem;
+  height: auto;
+  padding-left: 1.5rem;
+  margin-right: 2rem;
+}
+
+.heading h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.heading a {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+
+}
+
+footer {
+  justify-content: space-between;
+}
