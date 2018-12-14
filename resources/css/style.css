@@ -236,6 +236,67 @@ header img {
   padding-top: .5rem;
 }
 
+/* fourth banner */
+
+.thesis {
+  background-color:;
+  margin: auto;
+}
+
+.thesis h3 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.thesis .container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.thesis-left {
+  width: 60%;
+  margin: 2rem .75rem .75rem 1.5rem;
+}
+.thesis-left video {
+  width: 100%;
+  object-fit: contain;
+}
+
+.thesis-left h4 {
+  padding-top: 1.5rem;
+}
+
+.thesis-left p {
+  padding-top: .5rem
+}
+
+.thesis-right {
+  width: 40%;
+  margin: 2rem 0 0 .75rem;
+}
+
+.fisma {
+  background-color: lightgray;
+}
+
+.thesis-right img {
+  width: 35%;
+  height: 35%;
+  padding: 1rem;
+}
+
+.thesis-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.thesis-block p {
+  padding-top: 1rem;
+}
+
 
 
 
