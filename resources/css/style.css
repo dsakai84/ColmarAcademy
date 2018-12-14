@@ -9,12 +9,17 @@ body {
 
 }
 .container {
-  max-width: 1050px;
+  max-width: 1024px;
   margin: auto;
 }
 
 h1 {
   font-size: 2.25rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -67,7 +72,7 @@ header img {
 /* main banner */
 
 .main-banner {
-  background-color: gray;
+  background-color: lightgray;
   margin: auto;
 }
 
@@ -107,7 +112,7 @@ header img {
 
 .heading a {
   text-align: center;
-  background-color: black;
+  background-color: #565f66;
   color: white;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -115,6 +120,154 @@ header img {
 
 }
 
-footer {
+/* second banner */
+
+.information {
+  background-color: white;
+  margin: auto;
+}
+
+.information .container {
+  display: flex;
   justify-content: space-between;
+}
+
+.information-left {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.information-left img {
+  width: 100%;
+}
+
+.information-left h2 {
+  padding-top: 2rem;
+}
+
+.information-left p {
+  padding-top: 1.5rem;
+}
+
+.information-left .emanuel {
+}
+
+.information-right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  border-left: 1px solid lightgray;
+}
+
+.information-right img {
+  height: 35%;
+  width: 35%;
+  padding: 1rem 1rem;
+}
+
+ .box {
+  width: 100%;
+  display: flex;
+}
+
+.orientation {
+  border-bottom: 3px solid lightgray;
+}
+
+.lecture {
+  background-color: lightgray;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:
+  padding: .5rem;
+  width: 65%;
+}
+
+.info-block p {
+  padding: .5rem 0;
+}
+
+.info-block a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Third Banner */
+
+.courses {
+  background-color: lightgray;
+  margin: auto;
+}
+
+.courses h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.courses .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-info {
+  width: 17rem;
+  background-color: white;
+  margin: 1rem 1rem;
+}
+
+.classes {
+  padding: 1rem 0 1.5rem 1rem;
+}
+
+.course-info img {
+  width: 100%;
+}
+
+.course-info p {
+  padding-top: .5rem;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+  border-top: 1px solid black;
+  background-color: white;
+  height: 3rem;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+footer p {
+  padding-left: 1.5rem;
+  padding-right:1.5rem;
+  color: grey;
+}
+
+footer nav {
+  text-align: right;
+}
+
+.footer-nav a {
+  display: flex;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: grey;
 }
