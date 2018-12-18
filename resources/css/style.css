@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 1rem;
   background-color: white;
 
@@ -15,20 +15,37 @@ body {
 
 h1 {
   font-size: 2.25rem;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: bold;
+  line-height: 3rem;
+  font-weight: 700;
+  color: #514949;
 }
 
 h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.8rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #514949;
+
 }
 
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #514949;
+
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  color: #514949;
+
+}
+ p {
+   line-height: 1.25rem;
+   color: #666161;
+
+ }
 
 header {
   background-color: white;
@@ -49,11 +66,13 @@ nav div {
 }
 
 nav span {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-weight: 700;
 }
 
 #academy {
-  color: grey;
+  color: lightgray;
+  font-weight: normal;
 }
 
 nav li {
@@ -141,7 +160,7 @@ header img {
   width: 100%;
 }
 
-.information-left h2 {
+.information-left h4 {
   padding-top: 2rem;
 }
 
@@ -202,11 +221,11 @@ header img {
 /* Third Banner */
 
 .courses {
-  background-color: lightgray;
+  background-color: #e5e5e5;
   margin: auto;
 }
 
-.courses h1 {
+.courses h4 {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -243,7 +262,7 @@ header img {
   margin: auto;
 }
 
-.thesis h3 {
+.thesis h4 {
   text-align: center;
   padding-top: 2rem;
 }
