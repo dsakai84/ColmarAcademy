@@ -6,29 +6,32 @@
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-
-
-
   </head>
   <body>
 
 <!---header------>
 
     <header>
-      <nav class="container">
-        <div>
+      <div class="container">
+        <div class="logo">
           <img src="./resources/images/ic-logo.svg" alt="logo">
           <span>COLMAR</span><span id="academy">ACADEMY</span>
         </div>
-        <div class="menu">
+        <nav class="menu">
           <ul>
             <li>On campus</li>
             <li>Online</li>
             <li>For companies</li>
             <li>Sign in</li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+        <nav class="mobile-menu">
+          <img class="mobile-icon" src="./resources/images/ic-logo.svg" alt="Colmar Academy"/>
+          <img class="mobile-icon" src="./resources/images/ic-on-campus.svg" alt="on campus"/>
+          <img class="mobile-icon" src="./resources/images/ic-online.svg" alt="online"/>
+          <img class="mobile-icon" src="./resources/images/ic-login.svg" alt="sign in"/>
+        </nav>
+      </div>
     </header>
 
 <!---Main Banner------>
@@ -64,7 +67,8 @@
         </div>
         <div class="information-right">
           <div class="orientation box">
-            <img src="./resources/images/information-orientation.jpg" alt="orientation">
+            <img class="desktop" src="./resources/images/information-orientation.jpg" alt="orientation">
+            <img class="mobile" src="./resources/images/information-orientation-mobile.jpg" alt="orientation">
             <div class="info-block">
               <h5>Orientation Date</h5>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -72,7 +76,8 @@
             </div>
           </div>
           <div class="campus box">
-            <img src="./resources/images/information-campus.jpg" alt="campus">
+            <img class="desktop" src="./resources/images/information-campus.jpg" alt="campus">
+            <img class="mobile" src="./resources/images/information-campus-mobile.jpg" alt="campus">
             <div class="info-block">
               <h5>Our campus</h5>
               <p>Find which campus is close by you</p>
@@ -80,7 +85,8 @@
             </div>
           </div>
           <div class="lecture box">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="guest lecture">
+            <img class="desktop" src="./resources/images/information-guest-lecture.jpg" alt="guest lecture">
+            <img class="mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="guest lecture">
             <div class="info-block">
               <h5>Our guest lecturer</h5>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -144,6 +150,14 @@
             <p>Analytics, Content Marketing, Mobile Marketing</p>
           </div>
         </div>
+        <div class="course-mobile">
+          <h5>Software Engineering</h5>
+          <h5>Computer Art</h5>
+          <h5>Design</h5>
+          <h5>Data</h5>
+          <h5>Business</h5>
+          <h5>Marketing</h5>
+        </div>
       </div>
     </div>
 
@@ -152,6 +166,11 @@
     <div class="thesis">
       <h4>Thesis exhibit</h4>
       <div class="container">
+        <div class="mobile-vid">
+          <video autoplay muted loop>
+            <source src="./resources/videos/thesis.mp4" type="video/mp4">
+          </video>
+        </div>
         <div class="thesis-left">
           <video autoplay muted loop>
             <source src="./resources/videos/thesis.mp4" type="video/mp4">
@@ -181,20 +200,17 @@
       </div>
     </div>
 
-
-
-
 <!---footer------>
+
     <footer>
       <div class="container">
-        <p>2016 Colmar Academy. All rights reserved</p>
+        <p>©2016 Colmar Academy. All rights reserved</p>
         <nav class="footer-nav">
           <a href="#">Terms</a>
           <a href="#">Privacy</a>
         </nav>
       </div>
     </footer>
-
 
   </body>
 </html>
